@@ -102,3 +102,19 @@ dist
 
 # TernJS port file
 .tern-port
+
+# dotenv environment variables file
+.env
+.env.test
+.env.production
+
+# Logs
+logs
+*.log
+npm-debug.log*
+
+# Dependency directories
+node_modules/
+
+# Optional npm cache directory
+.npm
