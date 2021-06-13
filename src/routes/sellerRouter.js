@@ -5,5 +5,13 @@ const sellerController =
 
 sellerRouter.get("/listAllSellers",
     sellerController.listAllSellers);
+sellerRouter.post("/searchSellerByName",
+    sellerController.searchSellerByName);
+sellerRouter.post("/newSeller",
+    sellerController.newSeller);
+sellerRouter.delete("/deleteSeller/:id",
+    sellerController.deleteSeller);
+sellerRouter.put("/updateSeller/",
+    sellerController.updateSaller);
 
 module.exports = sellerRouter;
